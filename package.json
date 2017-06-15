@@ -23,7 +23,7 @@
     "mocha": "^2.4.5",
     "react-addons-test-utils": "^0.14.7",
     "webpack": "^1.12.9",
-    "webpack-dev-server": "^1.14.0"
+    "webpack-dev-server": "^1.16.5"
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
@@ -32,6 +32,7 @@
     "react-dom": "^0.14.3",
     "react-redux": "4.3.0",
     "react-router": "^2.0.1",
+    "react-router-dom": "^4.0.0",
     "redux": "^3.0.4"
   }
 }
