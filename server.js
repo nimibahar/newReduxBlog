@@ -18,9 +18,9 @@ if (process.env.NODE_ENV !== 'production') {
   const webpackConfig = require('./webpack.config.js');
   app.use(webpackMiddleware(webpack(webpackConfig)));
 } else {
-  app.use(express.static('build'));
+  app.use(express.static(__dirname));
   app.get('*', (req, res) => {
-   res.sendFile(path.join(__dirname, 'build/index.html'));
+   res.sendFile(path.join(__dirname, 'index.html'));
   });
 }
 
